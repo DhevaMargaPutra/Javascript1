@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  margin: auto;
+  margin: 0px;
   text-align: center;
 }
 
@@ -24,30 +24,43 @@ h2 {
   margin: auto;
 }
 
-.kanan {
-  right: 0;
+.mycontainer {
+  display: table;
+  width: 100%;
 }
 
-.kiri {
-  left: 0;
+.box {
+  display: table-cell;
 }
 
-.operator-container {
+.left {
+  width: 100%;
+}
 
+.middle {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.right {
+  width: 100%;
 }
 
 .operator {
-  width: 80%;
-  background: red;
-  float: left;
+  color: red;
 }
 
-.operator-left {
-  width: 10%;
-  float: left;
+.number {
+  color: rgb(0, 123, 255);
 }
 
-.operator-right {
-  width:: 10%;
-  float: left;
+.count {
+  width: 100%;
+}
+
+.result {
+  color: rgb(40, 167, 69);
+  text-align: center;
+  padding: 3rem;
 }
