@@ -3,33 +3,34 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="custom.css">
     <title></title>
   </head>
-  <body>
-    <h1>Kalkulator</h1>
+  <body class="my-background">
+    <h1 class="mfont">Kalkulator</h1>
     <div class="kalkulator-card">
       <!-- Bilangan 1 -->
       <div class="mycontainer">
-        <button id="num1-left" type="button" class="btn btn-outline-primary box left"><</button>
+        <button id="num1-left" type="button" class="btn btn-outline-primary box left mfont"><</button>
         <p id="num1" class="box middle number">0</p>
-        <button id="num1-right" type="button" class="btn btn-outline-primary box right">></button>
+        <button id="num1-right" type="button" class="btn btn-outline-primary box right mfont">></button>
       </div>
       <!-- Operator -->
       <div class="mycontainer">
-        <button id="op-left" type="button" class="btn btn-outline-danger box left"><</button>
+        <button id="op-left" type="button" class="btn btn-outline-danger box left mfont"><</button>
         <p id="op" class="box middle operator">...</p>
-        <button id="op-right" type="button" class="btn btn-outline-danger box right">></button>
+        <button id="op-right" type="button" class="btn btn-outline-danger box right mfont">></button>
       </div>
       <!-- Bilangan 2 -->
       <div class="mycontainer">
-        <button id="num2-left" type="button" class="btn btn-outline-primary box left"><</button>
+        <button id="num2-left" type="button" class="btn btn-outline-primary box left mfont"><</button>
         <p id="num2" class="box middle number">0</p>
-        <button id="num2-right" type="button" class="btn btn-outline-primary box right">></button>
+        <button id="num2-right" type="button" class="btn btn-outline-primary box right mfont">></button>
       </div>
       <!-- Hitung -->
       <div>
-        <button id="sub" type="button" class="btn btn-outline-success count">Hitung</button>
+        <button id="sub" type="button" class="btn btn-outline-success count mfont">Hitung</button>
       </div>
       <!-- Hasil -->
       <div class="mycontainer">
@@ -40,4 +41,7 @@
     <script src="app.js">
     </script>
   </body>
+  <footer>
+    <p>Photo by Paul Green on Unsplash</p>
+  </footer>
 </html>
